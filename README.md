@@ -1,3 +1,12 @@
+Done september 20th 2024, revised september 24th 2025
+
+Generates curve-stitching or string art illustrations (potentially instructions)
+for simple characters in fonts, using straight segments to immitate the beziers
+of the font;  if the font beziers consists of very short or very straight or flat
+beziers, this will not work well (it'll generate like only a line or two)
+
+Personal experiment; no maintenance expected.
+
 A random small project to generate curve-stitching illustrations
 of fonts, using FontForge and tkinter, with ability to export
 instructions.
