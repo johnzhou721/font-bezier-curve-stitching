@@ -54,3 +54,7 @@ beyond just a few straight lines.
 
 ![v in TeX Gyre Pagella italic, point sheet](v-pts.png)
 
+A small report is in document.tex compiled to Documentation.pdf.  Two passes
+required; to rebuild docs, compile it as document.tex first and then rename
+to Documentation.pdf.
+
