@@ -50,7 +50,7 @@ beyond just a few straight lines.
 
 ![v in TeX Gyre Pagella italic stitched](v-tgpagella.png)
 
-![v in TeX Gyre Pagella italic, instructions](v-tgpagella.png)
+![v in TeX Gyre Pagella italic, instructions](v-tgp-instr.png)
 
 ![v in TeX Gyre Pagella italic, point sheet](v-pts.png)
 
