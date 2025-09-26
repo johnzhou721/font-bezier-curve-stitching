@@ -68,6 +68,10 @@ class StringArtHelpers:
 if __name__ == "__main__":
 
     choice = int(input("1 to generate svg for printing dots, or 0 to do visualize >"))
+    if choice:
+        numbers = 1
+    else:
+        numbers = int(input("1 to put point point numbers, 0 to not"))
 
     root = tk.Tk()
 
@@ -78,10 +82,11 @@ if __name__ == "__main__":
                 helper.draw_line(instruction[0], instruction[1])
     
     for key, value in points.items():
-        if choice:
-            helper.draw_point(value, label=key, size=3)
-        else:
-            helper.draw_point(value, label=key)
+        if numbers:
+            if choice:
+                helper.draw_point(value, label=key, size=3)
+            else:
+                helper.draw_point(value, label=key)
     
     if choice:
         saveall("output.svg", helper.canvas)
